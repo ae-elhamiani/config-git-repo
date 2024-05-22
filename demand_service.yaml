@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ayman
+    url: jdbc:postgresql://localhost:5431/ayman
+    password: '1234'
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+demand:
+  security:
+    jwt:
+      secret: "MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0Nzg5MDEyMzQ1Njc4OTAxMjM0NTY"

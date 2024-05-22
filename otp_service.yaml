@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ayman
+    url: jdbc:postgresql://localhost:5431/ayman
+    password: '1234'
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+otp:
+  params:
+    retryWaitTimeInMinutes: 30
+    maxGenerationAttempts: 3
+    otpLengthChar: 6
+    generationAlgorithm: SHA-256
+    expiryOtpTimeInMinutes: 15
+    maxAttemptsBeforeExpiry: 3

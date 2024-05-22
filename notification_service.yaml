@@ -1,0 +1,17 @@
+spring:
+  mail:
+    username: 'ay.elhamiani@gmail.com'
+    host: smtp.gmail.com
+    port: '587'
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
+    password: 'ppru ataa htmz toab'
+
+twilio:
+  trial_number: ''
+  account_sid: ''
+  auth_token: ''

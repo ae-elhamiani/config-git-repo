@@ -9,6 +9,8 @@ spring:
       ddl-auto: create-drop
 
 demand:
+  params:
+    expirationTimeMs: 36000000
+    generationAlgorithm: HS512
   security:
-    jwt:
-      secret: "MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0Nzg5MDEyMzQ1Njc4OTAxMjM0NTY"
+      jwtSecret: "MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0Nzg5MDEyMzQ1Njc4OTAxMjM0NTY"

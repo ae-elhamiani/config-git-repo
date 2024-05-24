@@ -9,7 +9,7 @@ spring:
           starttls:
             enable: 'true'
           auth: 'true'
-    password: 'ppru ataa htmz toab'
+    password: 'yndk ozcw ygmu okua'
 
 twilio:
   trial_number: ''

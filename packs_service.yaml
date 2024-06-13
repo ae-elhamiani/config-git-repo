@@ -1,3 +1,9 @@
 spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: admin
+    url: jdbc:postgresql://postgres:5432/postgres
+    password: admin
   jpa:
-    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop

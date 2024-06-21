@@ -10,6 +10,8 @@ spring:
     username: 'ay.elhamiani@gmail.com'
     password: 'rekp xulg larr kzuj'
     port: '587'
+    default-encoding: UTF-8
+    from: 'Agence direct <ay.elhamiani@gmail.com>'
   data:
     mongodb:
       uri: mongodb://mongodb:27017/notification_service

@@ -15,3 +15,8 @@ spring:
   data:
     mongodb:
       uri: mongodb://mongodb:27017/notification_service
+
+twilio:
+  trial_number: ''
+  account_sid: ''
+  auth_token: ''
